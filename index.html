@@ -3,15 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
 </head>
 <body>
-    <input type="text" id="textoCifrar" placeholder="Ingresa el texto">
-    <textarea name="resultado" id="textoEncriptado" cols="30" rows="10" placeholder="Aqui se mostrara el resultado"></textarea>
-    <button type="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
-    <button type="button" id="botonDesncriptar" onclick="desencriptar()">Desencriptar</button>
-    <button type="button" id="botonCopiar" onclick="copiar()">Copiar</button>
+    <header>
+        <img src="imagenes/logo.png" alt="Logo Alura">
+    </header>
 
+    <main>
+        <section class="botones">
+            <textarea name="resultado" id="textoEncriptado" class="textarea" cols="30" rows="10" placeholder="Ingresa el texto"></textarea>
+            <div class="contenedor-botones">
+                <p id="condiciones">Lowercase letter only, no accents</p>
+                <button type="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="botonDesencriptar" onclick="desencriptar()">Desencriptar</button>
+                
+            </div>
+            
+        </section>
+
+        <section class="ResultadoEncriptado">
+
+            <div class="textEncriptado">
+                <textarea name="" id="texto-encriptado" cols="30" rows="10" placeholder="Aqui se mostrata el texto encriptado o desencriptado"></textarea>
+            </div>
+            <div id="contenedor-subtitulo">
+                <h3>No se encontro ningun mensaje</h3>
+            </div>
+            
+            <div class="btn-copiar">
+                <button type="button" id="botonCopiar" onclick="copiar()">Copiar</button> 
+            </div>
+             
+           
+        
+        </section>
+        
+    
+    </main>
+
+    <footer>
+        <p class="credits">Developed by: <a href="https://github.com/Rafa05231/ChallengeEncriptador" target="_blank">RafaDev</a></p>
+    </footer>
+   
     <script src="app.js"></script>
 </body>
 </html>
