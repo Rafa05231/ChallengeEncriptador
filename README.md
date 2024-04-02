@@ -1,5 +1,7 @@
 <h1>Challenge Encriptador Oracle One</h1>
 - Estado: Finalizado.
+
+
 Informacion del proyecto:
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
