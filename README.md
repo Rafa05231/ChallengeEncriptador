@@ -20,6 +20,8 @@
   
   Por ejemplo:
   "gato" => "gaitober"
+
+  
   gaitober" => "gato"
 
   
