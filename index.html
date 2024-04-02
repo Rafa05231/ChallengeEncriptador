@@ -6,11 +6,11 @@
     <title>Encriptador</title>
 </head>
 <body>
-    <input type="text" id="textoCifrar">
-    <textarea name="resultado" id="textoEncriptado" cols="30" rows="10"></textarea>
-    <button type="button" id="botonEncriptar">Encriptar</button>
-    <button type="button" id="botonDesncriptar">Desencriptar</button>
-    <button type="button" id="botonCopiar">Copiar</button>
+    <input type="text" id="textoCifrar" placeholder="Ingresa el texto">
+    <textarea name="resultado" id="textoEncriptado" cols="30" rows="10" placeholder="Aqui se mostrara el resultado"></textarea>
+    <button type="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+    <button type="button" id="botonDesncriptar" onclick="desencriptar()">Desencriptar</button>
+    <button type="button" id="botonCopiar" onclick="copiar()">Copiar</button>
 
     <script src="app.js"></script>
 </body>
