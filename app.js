@@ -11,8 +11,8 @@ function encriptar(){
             break;
         }
     }
-
-    if(!hayMayusculas){
+    
+    if(hayMayusculas == false){
             textoEncriptado = texto.replace(/e/mg, "enter");
             textoEncriptado = textoEncriptado.replace(/i/mg, "imes");
             textoEncriptado = textoEncriptado.replace(/a/mg, "ai");
